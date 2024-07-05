@@ -1,0 +1,237 @@
+@font-face {
+    font-family: vazir;
+    src: url(../font/Vazir.ttf) format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+a{all: unset;}
+
+body , button , select{font-family: 'vazir' , 'sans-serif';}
+
+.flexed-container{
+    display: flex;
+    align-items: center;
+}
+
+.cursor{cursor: pointer;}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    transition: .3s;
+}
+/* use this class on js */
+.active{
+    padding: 5px 0;
+    background-color: black;
+}
+.header-main{
+    height: 100vh;
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-header-container{
+    max-width: 1300px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 21px 10px;
+}
+ul.flexed-container li{
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+ul.flexed-container li:hover{color: #e2d703;}
+
+.search-ico i{
+    width: 26px;
+    margin-right: 0 5px;
+    color: white;
+    border-right: 1px solid rgba(241, 241, 241, 0.596);
+}
+
+.select-option-container{padding: 0 20px;}
+
+.select-option-container select{
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.select-option-container i{color: #e2d703;}
+
+.sign-in-button button{
+    position: relative;
+    color: white;
+    background-color: black;
+    border: 2px solid #e2d703;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-weight: 900;
+    transition: .4s;
+}
+.sign-in-button button:hover{
+    color: black;
+    background-color: #e2d703;
+}
+.web-information{
+    max-width: 1300px;
+    margin: auto;
+    padding: 235px 0;
+}
+.main-info-container{
+    max-width: 800px;
+    padding: 0 10px;
+}
+.web-information h1{
+    color: white;
+    font-size: 45px;
+}
+.span-on-movie{
+    color: #e2d703;
+    font-weight: 900;
+}
+.film-lane{
+    color: #e2d703;
+    font-size: 21px;
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+.under-info{
+    font-size: 13px;
+    font-weight: 900;
+    padding: 20px 0;
+    color: white;
+    flex-wrap: wrap;
+}
+.age-container{
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    padding: 1px 10px;
+}
+.resolution{
+    background-color: #141c26;
+    border: 2px solid white;
+    padding: 1px 8px;
+    margin: 0 10px;
+}
+.pad-for-infoitem{padding: 0 3px 0 10px;}
+
+.last-info i{color: #e2d703;}
+
+.pause::after{
+    content: '\0025B8';
+    position: absolute;
+    color: white;
+    transform: scale(2.5);
+    top: 14px;
+    left: 22px;
+}
+.creator{
+    position: relative;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e4e4e417;
+    color: white;
+    border-radius: 20px;
+}
+.creator::before{
+    content: '';
+    position: absolute;
+    width: 61px;
+    height: 2px;
+    background-color: #e2d703;
+    left: 199px;
+    top: 23px;
+}
+
+.card-section-container{background-image: url(../img/upcoming-bg.png);}
+
+.card-section{
+    max-width: 1300px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{padding: 15px;}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    transition: .3s;
+}
+.card img:hover{
+    opacity: .5;
+}
+.card-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-weight: 900;
+}
+.card-info p{ color: white;}
+.card-info span{color: #e2d703;}
+
+.card-details-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card-details{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.card-details{ color: white;}
+.card-details i{color: #e2d703;}
+
+.in-card{
+    margin: 0;
+    color: #e2d703;
+    font-size: 13px;
+    padding: 0 11px;
+    font-weight: 900;
+}
+.title-cards{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+}
+.title-cards h1{
+    font-size: 35px;
+    padding: 15px 0 0 0;
+}
+.title-cards p{color: #e2d703;}
+.category{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 0;
+}
+
+.pad{padding: 5px 15px;}
+.category button.pad{
+    padding: 6px 30px;
+    border-radius: 15px;
+    background-color: #21232b;
+    color: white;
+    border: 1px solid #2d2f3c;
+    font-weight: 900;
+}
