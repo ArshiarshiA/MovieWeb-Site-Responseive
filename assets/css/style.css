@@ -11,7 +11,7 @@
 
 a{all: unset;}
 
-body , button , select{font-family: 'vazir' , 'sans-serif';}
+body , button , select , input{font-family: 'vazir' , 'sans-serif';}
 
 .flexed-container{
     display: flex;
@@ -334,4 +334,36 @@ ul.flexed-container li:hover{color: #e2d703;}
     color: #cecaca;
     padding: 25px 20px;
     cursor: pointer;
+}
+.Comments{
+    background-image: url(../img/cta-bg.jpg);
+}
+.Comments-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    direction: rtl;
+    padding: 60px 10px;
+}
+.Comments-container form{position: relative;}
+.Comments-container input[type = email]{
+    width: 450px;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 15px;
+}
+.Comments-container input[type = button]{
+    position: absolute;
+    color: #e2d703;
+    background-color: #141c26;
+    padding: 0 60px;
+    border-radius: 5px;
+    border: none;
+    left: 2px;
+    top: 2px;
+    bottom: 2px;
 }
