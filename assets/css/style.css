@@ -235,3 +235,33 @@ ul.flexed-container li:hover{color: #e2d703;}
     border: 1px solid #2d2f3c;
     font-weight: 900;
 }
+.our-service{
+    padding: 100px 0;
+    background-image: url(../img/service-bg.jpg);
+}
+.our-service-container{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+}
+.left-sec-our-service{
+    position: relative;
+}
+.left-sec-our-service a{
+    position: absolute;
+    bottom: 65px;
+    right: -165px;
+    background-color: #e2d703;
+    color: black;
+    padding: 30px;
+    display: flex;
+    transform: rotate(90deg);
+    border-radius: 10px;
+}
+.left-sec-our-service p{
+    letter-spacing: 5px;
+}
+.left-sec-our-service i{
+    padding-top: 10px;
+    transform: rotate(270deg);
+}
