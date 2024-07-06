@@ -347,23 +347,26 @@ ul.flexed-container li:hover{color: #e2d703;}
     direction: rtl;
     padding: 60px 10px;
 }
+
+.wid-100-forcomment{width: 100%}
+
 .Comments-container form{position: relative;}
+
 .Comments-container input[type = email]{
-    width: 450px;
+    width: 100%;
     padding: 20px 10px;
     border: none;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     font-size: 15px;
+    margin: 15px 0;
 }
 .Comments-container input[type = button]{
-    position: absolute;
     color: #e2d703;
     background-color: #141c26;
-    padding: 0 60px;
     border-radius: 5px;
     border: none;
-    left: 2px;
-    top: 2px;
-    bottom: 2px;
+    left: 3px;
+    top: 18px;
+    bottom: 18px;
 }
