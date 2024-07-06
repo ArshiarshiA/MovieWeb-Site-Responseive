@@ -381,6 +381,8 @@ ul.flexed-container li:hover{color: #e2d703;}
 }
 .con-footer-item ul{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .top-side-footer{
     display: flex;
@@ -390,7 +392,7 @@ ul.flexed-container li:hover{color: #e2d703;}
     border-bottom: 1px solid #cecaca4d;
 }
 .top-side-footer ul li{
-    padding: 0 15px;
+    padding: 5px 15px;
 }
 .bottom-side-footer{
     display: flex;

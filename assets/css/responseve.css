@@ -36,6 +36,8 @@
 }
 @media screen and (max-width: 486px) {
     .card{width: 100%;}
+    /* FOOTER LINE ANIMATION */
+    .main-bottom-container span:hover::after{width: 0;}
 }
 
 /* SERVICE MEDIA */
@@ -57,9 +59,19 @@
     }
 
 }
+/* COMMENT SECTION */
 @media screen and (max-width: 958px) {
     .Comments-container{
         flex-direction: column;
         justify-content: center;
+    }
+}
+
+/* FOOTER */
+@media screen and (max-width: 687px) {
+    .top-side-footer , .bottom-side-footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }
