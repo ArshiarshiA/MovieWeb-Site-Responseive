@@ -1,3 +1,4 @@
+/* NAV BAR MEDIA */
 @media screen and (max-width: 965px) {
     ul.flexed-container{display: none;}
 }
@@ -8,6 +9,7 @@
     .web-information h1{font-size: 35px;}
 }
 
+/* CARDS MEDIA */
 @media screen and (max-width: 826px) {
     .card{width: 50%;}
 
@@ -23,4 +25,23 @@
 }
 @media screen and (max-width: 486px) {
     .card{width: 100%;}
+}
+
+/* SERVICE MEDIA */
+@media screen and (max-width: 1210px) {
+    .left-sec-our-service a{
+        right: -59px;
+    }
+}
+@media screen and (max-width: 978px) {
+    .our-service-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+@media screen and (min-width: 438px){
+    .service-icon-con{
+        width: 135px;
+        height: 76px;
+    }
 }

@@ -236,12 +236,13 @@ ul.flexed-container li:hover{color: #e2d703;}
     font-weight: 900;
 }
 .our-service{
-    padding: 100px 0;
+    padding: 100px 20px;
     background-image: url(../img/service-bg.jpg);
 }
 .our-service-container{
     max-width: 1300px;
     margin: auto;
+    text-align: justify;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -299,8 +300,8 @@ ul.flexed-container li:hover{color: #e2d703;}
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 135px;
-    height: 76px;
+    width: 184px;
+    height: 66px;
     border: 3px inset #e2d703;
     border-radius: 50%;
     margin-left: 10px;
