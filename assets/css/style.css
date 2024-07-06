@@ -314,3 +314,24 @@ ul.flexed-container li:hover{color: #e2d703;}
     border: 1px dashed rgba(168, 168, 168, 0.808);
     margin: 30px 0;
 }
+.top-rated-title{
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.top-rated-title h1{
+    font-size: 35px;
+    padding: 15px 0 0 0;
+}
+.top-rated-title p{color: #e2d703;}
+.top-rated-category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.top-rated-category button{
+    all: unset;
+    color: #cecaca;
+    padding: 25px 20px;
+    cursor: pointer;
+}
