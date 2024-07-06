@@ -1,6 +1,7 @@
 /* SCROLL BAR CODES */
 ::-webkit-scrollbar{
     width: 5px;
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #e2d703;

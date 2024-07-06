@@ -14,3 +14,7 @@ window.addEventListener('scroll' , ()=>{
     //     mainHeader.classList.remove('active');
     // }
 })
+
+// SCROLL TO TOP //
+let GtButton = document.querySelector('.go-top');
+window.addEventListener('scroll' , ()=> this.scrollY >= 700 ? GtButton.classList.add('Gt-active') : GtButton.classList.remove('Gt-active'))
