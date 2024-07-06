@@ -370,3 +370,40 @@ ul.flexed-container li:hover{color: #e2d703;}
     top: 18px;
     bottom: 18px;
 }
+.footer{
+    background-image: url(../img/footer-bg.jpg);
+}
+.con-footer-item{
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 5px;
+    color: #cecaca;
+}
+.con-footer-item ul{
+    display: flex;
+}
+.top-side-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #cecaca4d;
+}
+.top-side-footer ul li{
+    padding: 0 15px;
+}
+.bottom-side-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.bottom-side-footer ul li{
+    padding: 0 10px;
+}
+.con-footer-item ul li a{
+    transition: .2s;
+}
+.con-footer-item ul li a:hover{
+    cursor: pointer;
+    color: #e2d703;
+}
