@@ -407,3 +407,31 @@ ul.flexed-container li:hover{color: #e2d703;}
     cursor: pointer;
     color: #e2d703;
 }
+.bottom-section{
+    background-color: #171d21;
+}
+.main-bottom-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #cecaca;
+}
+.main-bottom-container span{
+    position: relative;
+    color: #e2d703;
+}
+.main-bottom-container span::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    background-color: #cecaca;
+    left: -63px;
+    bottom: 10px;
+    transition: all .4s;
+}
+.main-bottom-container span:hover::after{
+    width: 57px;
+}
